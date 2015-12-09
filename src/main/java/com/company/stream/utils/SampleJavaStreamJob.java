@@ -51,7 +51,7 @@ public class SampleJavaStreamJob {
 			e.printStackTrace();
 		} finally{
 			if(null != jssc)
-				jssc.stop();
+				jssc.stop(false);
 		}
 	}
 	
